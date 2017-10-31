@@ -2,4 +2,5 @@ static/* linguist-vendored
 
 assets/* linguist-vendored
 
-/OnlineShopping/src/webapp/assets/* linguist-vendored
+
+/OnlineShopping/main/src/webapp/assets/* linguist-vendored
