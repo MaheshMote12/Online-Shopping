@@ -4,6 +4,10 @@
   <artifactId>ShoppingBackend</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  	<spring-context.version>4.3.8.RELEASE</spring-context.version>
+  </properties>
+  
   <build>
   	<plugins>
   		 <plugin>
@@ -17,4 +21,13 @@
   	</plugins>
   </build>
   
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>${spring-context.version}</version>
+  	</dependency>
+  </dependencies>
 </project>

@@ -8,6 +8,7 @@
 
 	<context:annotation-config />
 	<context:component-scan base-package="com.me" />
+	<context:component-scan base-package="com.me.shoppingbackend"/>
 	<mvc:annotation-driven />
 
 	<mvc:resources location="/assets/" mapping="/resources/**"></mvc:resources>

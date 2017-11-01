@@ -16,7 +16,16 @@ $(function(){
 	case "Contact Us":
 		$("#contact").addClass("nav-item active");
 		break;
+
+	case menu:
+		$("#a_"+menu).addClass("active");
+		break;
+
+		
 	default :
+		alert("git it");
+		$("#a_"+menu).addClass("active");
+
 		break;
 
 	}
